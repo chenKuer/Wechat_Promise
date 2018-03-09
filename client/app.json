@@ -1,0 +1,37 @@
+{
+    "pages": [
+       "pages/home/index",
+        "pages/index/index",
+        "pages/chat/chat",
+        "pages/logs/logs"       
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarTitleText": "卡卡卡",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/home/index",
+          "text": "Home"
+        },
+        {
+          "pagePath": "pages/index/index",
+          "text": "Test"
+        },
+        {
+          "pagePath": "pages/logs/logs",
+          "text": "Add"
+        },
+        {
+          "pagePath": "pages/chat/chat",
+          "text": "Chat"
+        },
+        {
+          "pagePath": "pages/logs/logs",
+          "text": "Message"
+        }
+      ]
+    }
+}
